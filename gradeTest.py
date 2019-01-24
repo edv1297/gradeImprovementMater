@@ -1,15 +1,15 @@
 import csv
 
-with open('studentData.csv') as file:
+with open('StudentData 7160 1 23 19 - Sheet3.csv') as file:
     reader = csv.reader(file)
 
     count = 1
     points = 0
 
     for row in reader:
-        firstNineWeeks = row[3]
-        secondNineWeeks = row[4]
-        IDNumber = row[1]
+        firstNineWeeks = row[5]
+        secondNineWeeks = row[6]
+        IDNumber = row[4]
 
         if(firstNineWeeks>secondNineWeeks):
             if(firstNineWeeks == "F"):
@@ -29,7 +29,7 @@ with open('studentData.csv') as file:
 
            
 
-        if count == 8:
+        if count == 6:
             print(""+ IDNumber + " has " + str(points) + " points")
             points = 0
             count = 0
