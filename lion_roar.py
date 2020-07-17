@@ -62,7 +62,6 @@ def calculate_improvement(filepath):
     
     
     if (".xlsx" in filepath):
-        
         data = data_to_csv(filepath)
     else:
         data = filepath
