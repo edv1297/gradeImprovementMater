@@ -130,8 +130,7 @@ def clean_files(f1, f2, out):
 
 calculate_improvement('./data/7160.csv')
 calculate_improvement('./data/7014.csv')
-# calculate_improvement('./data/6012.csv')
-calculate_improvement('./data/6012-excel.xlsx')
+calculate_improvement('./data/6012.csv')
 # clean_files(output)
 
 # calculate_improvement
